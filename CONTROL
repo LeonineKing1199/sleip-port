@@ -1,0 +1,5 @@
+Source: sleip
+Version: 1.0.0
+Homepage: https://github.com/LeonineKing1199/sleip
+Description: AllocatorAware version of std::array
+Build-Depends: boost-config, boost-assert, boost-throw-exception, boost-core, boost-type-traits, boost-mp11
