@@ -3,9 +3,9 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO LeonineKing1199/sleip
-    REF 694ed4930d3c28e5de01c3826084584d61ca8ada
-    SHA512 47815e08fa740b39e0a368a2ea8e3a1c451531ff69534ff4133ee5c8bfa8ffde708053e0ebdc2f8c8138ba5c93a18cfcc118b577461577506c1cfcc6d9f2f519
-    HEAD_REF develop
+    REF v1.0.0
+    SHA512 012679ae00027d0baf8955441c97201c459a88d2850355ae4c937212c4533ac72fccf58a1e29b5ab2f6bbcfc0ffb74e6644b45fbeafc512a44ed490bfb12819b
+    HEAD_REF master
 )
 
 vcpkg_configure_cmake(
